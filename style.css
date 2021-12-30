@@ -1,0 +1,71 @@
+.section-title h2 {
+    font-size: 30px;
+    margin-bottom: 23px;
+}
+
+body {
+    color: #82828282;
+    font-size: 13px;
+    line-height: 20px;
+}
+h1, h2, h3, h4, h5, h6 {color: #333;}
+section-title p {
+    margin-bottom: 42px;
+}
+.section-title p{
+    margin-top: 40px;
+    margin-bottom: 30px
+}
+.section-title h2:before {content: "";position: absolute;top: 25%;left: 15px;width: 15%;height: 5px;background: rgb(0, 140, 255);border-radius: 0 5px 5px 0;}
+
+.section-title h2:after {content: "";position: absolute;top: 25%;left: 18%;width: 6%;height: 5px;background: #c1c0c082;border-radius: 5px;}
+
+.owl-carousel .owl-item .item img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.staff-meta h3 {
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.staff-meta {
+    margin-top: 20px;
+}
+
+.staff-meta p {
+    color: #5454;
+}
+
+.owl-nav fa {}
+
+.staff-list .owl-nav button {
+    background: #f1f1f1 !important;
+    display: inline-block;
+    width: 40px;
+    height: 35px;text-align: center;
+    transition: all 0.2s;
+}
+
+button.owl-prev {}
+
+.owl-nav .fa.fa-long-arrow-left, .owl-nav .fa.fa-long-arrow-right {
+    font-size: 20px;
+    line-height: 37px;
+
+}
+.staff-list .owl-nav button:hover {
+    background: rgb(0, 140, 255) !important;
+    color: #fff;
+}
+
+.owl-nav {
+    position: absolute;
+    right: 0;
+    top: -40px;
+}
+a:hover{
+
+}
